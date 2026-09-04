@@ -1,15 +1,15 @@
 void main () {
  
-Map data = {
-  "name" : "dawood",
-  "price" : 3200,
-  "quantity" : 22
+Map car = {
+  "brand" : "toyota",
+  "colour" : "red",
+  "issedan" : true
 };
 
-if(data ["quantity"] > 0){
-  print ("in stock");
+if(car ["colour"] == "red" && ["issedan"] == true){
+  print ("match");
 }
 else {
-  print ("out of stock");
+  print ("not match");
 }
 }

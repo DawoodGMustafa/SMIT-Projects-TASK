@@ -1,15 +1,15 @@
-void main () {
- 
-Map user = {
-    "name": "John",
-    "isAdmin": true,
-    "isActive": true
+void main() {
+
+  Map cart = {
+    "cycle": "2 wheel",
+    "Banana": 3,
+    "cloth": true
   };
 
-if(user ["isAdmin"] == true && ["isActive"] == true){
-  print ("active admin");
-}
-else {
-  print ("not active admin");
-}
+  if (cart.containsKey("Apple")) {
+    print("Product found");
+  } 
+  else {
+    print("Product not found");
+  }
 }

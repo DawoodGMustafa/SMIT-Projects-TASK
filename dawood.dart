@@ -1,10 +1,6 @@
 void main () {
  
-List numbers = [12,32,433,4323,54,0];
-
-numbers.sort();
-print(numbers);
-
-print(numbers.last);
-
+List information1 = ["cycle","bike","car","aeroplane","train","bike"];
+List information2 = information1.toSet().toList();
+print(information2);
 }

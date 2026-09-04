@@ -1,22 +1,10 @@
 void main () {
  
-List days =["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+List numbers =[12,43,54,65,7];
 
-days.remove ("Monday");
+numbers.sort();
 
-days.remove ("Tuesday");
-
-days.remove ("Wednesday");
-
-days.remove ("Thursday");
-
-days.remove ("Friday");
-
-days.remove ("Saturday");
-
-days.remove ("Sunday");
-
-print (days);
+print (numbers);
 
 
 

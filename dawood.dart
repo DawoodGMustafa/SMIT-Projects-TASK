@@ -1,14 +1,10 @@
 void main () {
  
-List userseligibility =[
-  {"name": "John", "eligible": true},
-{"name": "Alice", "eligible": false},
-{"name": "Mike", "eligible": true},
-{"name": "Sarah", "eligible": true},
-{"name": "Tom", "eligible": false},
-];
+List numbers = [12,32,433,4323,54,0];
 
-userseligibility.removeWhere((userseligibility) => userseligibility["eligible"] == false);
-print (userseligibility);
+numbers.sort();
+print(numbers);
+
+print(numbers.last);
 
 }

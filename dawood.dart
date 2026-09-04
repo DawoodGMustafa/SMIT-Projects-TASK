@@ -1,15 +1,15 @@
 void main () {
  
-Map person = {
-  "name" : "john",
-  "age" : 25,
-  "isstudent" : true
+Map data = {
+  "name" : "dawood",
+  "price" : 3200,
+  "quantity" : 22
 };
 
-if(person ["age"] > 18 && person ["isstudent"] == true){
-  print ("Eligible");
+if(data ["quantity"] > 0){
+  print ("in stock");
 }
 else {
-  print ("not Eligible");
+  print ("out of stock");
 }
 }

@@ -1,11 +1,13 @@
 void main () {
  
-List numbers =[12,43,54,65,7];
+Map data ={
+"name" : "Dawood",
+"phone key" : "0123456789",
+"city" : "Karachi"
+};
 
-numbers.sort();
+ var result = data.keys.where((key) => key.length == 4);
 
-print (numbers);
-
-
+print (result);
 
 }

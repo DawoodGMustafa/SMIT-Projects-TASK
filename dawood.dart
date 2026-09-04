@@ -1,20 +1,20 @@
 void main () {
  
-List days =[""];
+List days =["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
-days.add ("Monday");
+days.remove ("Monday");
 
-days.add ("Tuesday");
+days.remove ("Tuesday");
 
-days.add ("Wednesday");
+days.remove ("Wednesday");
 
-days.add ("Thursday");
+days.remove ("Thursday");
 
-days.add ("Friday");
+days.remove ("Friday");
 
-days.add ("Saturday");
+days.remove ("Saturday");
 
-days.add ("Sunday");
+days.remove ("Sunday");
 
 print (days);
 

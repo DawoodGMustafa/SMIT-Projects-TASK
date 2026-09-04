@@ -1,9 +1,9 @@
 void main () {
  
-List basic = ["pakistan","uzbakistan","eygpt","morroco","turkey","iran","palestine"];
+List numberslist1 = [21,34,54,76,87,89,01,89,32,54];
 
-List basic1 = basic.reversed.toList();
+List numberslist2 = numberslist1.toSet().toList();
 
-print(basic1);
+print(numberslist2);
 
 }

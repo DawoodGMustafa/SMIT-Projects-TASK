@@ -1,9 +1,15 @@
 void main () {
  
-List numberslist1 = [2,4,6,7,8,93];
+Map person = {
+  "name" : "john",
+  "age" : 25,
+  "isstudent" : true
+};
 
-List numberslist2 = numberslist1.map((numberslist1) => numberslist1 * numberslist1).toList();
-
-print(numberslist2);
-
+if(person ["age"] > 18 && person ["isstudent"] == true){
+  print ("Eligible");
+}
+else {
+  print ("not Eligible");
+}
 }

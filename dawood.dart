@@ -1,13 +1,19 @@
 void main () {
  
-Map data ={
-"name" : "Dawood",
-"phone key" : "0123456789",
-"city" : "Karachi"
+Map world = {
+"Pakistan" : {
+  "capital city" : "islamabad",
+  "language" : "urdu",
+  "currency" : "pak rupees"
+},
+"kenya" :{
+  "capital city" : "nairobi",
+  "language" : "swahili",
+  "currency" : "kenyan silling"
+}
 };
 
- var result = data.keys.where((key) => key.length == 4);
-
-print (result);
+print(world["kenya"]["capital city"]);
+print(world["kenya"]["currency"]);
 
 }

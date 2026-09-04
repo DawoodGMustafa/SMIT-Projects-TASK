@@ -1,15 +1,15 @@
 void main () {
  
-Map car = {
-  "brand" : "toyota",
-  "colour" : "red",
-  "issedan" : true
-};
+Map user = {
+    "name": "John",
+    "isAdmin": true,
+    "isActive": true
+  };
 
-if(car ["colour"] == "red" && ["issedan"] == true){
-  print ("match");
+if(user ["isAdmin"] == true && ["isActive"] == true){
+  print ("active admin");
 }
 else {
-  print ("not match");
+  print ("not active admin");
 }
 }

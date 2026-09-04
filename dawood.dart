@@ -1,8 +1,8 @@
 void main () {
  
-List numberslist1 = [21,34,54,76,87,89,01,8,32,];
+List numberslist1 = [2,4,6,7,8,93];
 
-List numberslist2 = numberslist1.where((numberslist1) => numberslist1 %2 ==0).toList();
+List numberslist2 = numberslist1.map((numberslist1) => numberslist1 * numberslist1).toList();
 
 print(numberslist2);
 

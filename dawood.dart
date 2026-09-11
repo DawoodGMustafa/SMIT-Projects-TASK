@@ -1,12 +1,15 @@
-void main () {
+void main() {
 
-     
-   int number = 1;
 
-  while (number <= 10) {
-    print("10 x $number = ${10* number}");
-    number++;
-    }
+  int value = 20;
+
+  do {
+    print(value);
+    value--;
+  }
+   while (value >= 1);
+
+
 
 
 }

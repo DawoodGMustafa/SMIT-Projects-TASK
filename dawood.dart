@@ -1,18 +1,14 @@
-import 'dart:io';
+void main () {
 
-void main() {
+    List data = ["Apple","Orenge","Watermelon"];
 
-
-  print("Enter a number:");
-  int number = int.parse(stdin.readLineSync()!);
-
-  int i = 1;
-
-  while (i <= number) {
-    print(i);
-    i++;
-  }
+    for (String name in data ){
+        print ("Names of Fruits : $name");
+    }
 
 
-  
+
 }
+
+
+

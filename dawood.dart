@@ -1,18 +1,22 @@
+import 'dart:io';
+
 void main() {
 
 
-  int value = 20;
+  for (int number1 = 1; number1 <= 5; number1++) {
+    print("value $number1:");
 
-  do {
-    print(value);
-    value--;
+
+
+    int number = int.parse(stdin.readLineSync()!);
+    print("data: $number");
   }
-   while (value >= 1);
 
 
 
 
 }
+
 
 
 

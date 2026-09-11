@@ -1,13 +1,12 @@
 void main (){
 
 
+int numbers = 10;
 
-List data = ["Dawood","Ali","Ahmed","Hassan","Hasnain"];
-
-for (String name in data){
-    print("names:$name");
+while(numbers >= 1){
+    print (numbers);
+    numbers--;
 }
-
 
 
 

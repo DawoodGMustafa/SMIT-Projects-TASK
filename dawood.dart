@@ -1,7 +1,15 @@
 void main (){
 
-for (int i = 1; i <= 10; i++)
-print(i);
+
+
+List data = ["Dawood","Ali","Ahmed","Hassan","Hasnain"];
+
+for (String name in data){
+    print("names:$name");
+}
+
+
+
 
 
 

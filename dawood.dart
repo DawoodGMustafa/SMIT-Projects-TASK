@@ -1,15 +1,8 @@
-void main() {
+void main (){
 
-  Map cart = {
-    "cycle": "2 wheel",
-    "Banana": 3,
-    "cloth": true
-  };
+for (int i = 1; i <= 10; i++)
+print(i);
 
-  if (cart.containsKey("Apple")) {
-    print("Product found");
-  } 
-  else {
-    print("Product not found");
-  }
+
+
 }

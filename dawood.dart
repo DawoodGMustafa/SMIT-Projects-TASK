@@ -1,12 +1,31 @@
 import 'dart:io';
 
 void main() {
+  int choice;
 
-  print("enter a number1:");
+  do {
+    print("1.Main Page");
 
-  int number2 = int.parse(stdin.readLineSync()!);
+    print("2. Data Page");
 
-  for (int i = 1; i <= 10; i++) {
-    print("$number2 x $i = ${number2 * i}");
-  }
+    print("3. History");
+
+    print("Ending:");
+
+    choice = int.parse(stdin.readLineSync()!);
+
+    if (choice == 1) {
+    print("Thinking");}
+
+     else if (choice == 2) {
+      print("Done");}
+
+     else if (choice == 3) {
+      print("Exit");}
+
+     else {
+      print("Take It");}
+    
+
+  } while (choice != 3);
 }

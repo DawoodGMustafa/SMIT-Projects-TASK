@@ -1,13 +1,10 @@
 void main (){
 
-List numbers1 = [1,2,3,4,5,6,7,8,9,10];
+int numbers1 = 1;
 
-int numbers2 = 0;
-
-for (int numbers in numbers1){
-    numbers2 += numbers;
+do {
+    print (numbers1);
+    numbers1++;
 }
-
-print (numbers2);
-
+while (numbers1 <= 5);
 }

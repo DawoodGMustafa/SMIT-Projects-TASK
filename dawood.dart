@@ -1,10 +1,18 @@
-void main (){
+import 'dart:io';
 
-int numbers1 = 1;
+void main() {
 
-do {
-    print (numbers1);
-    numbers1++;
-}
-while (numbers1 <= 5);
+
+  print("Enter a number:");
+  int number = int.parse(stdin.readLineSync()!);
+
+  int i = 1;
+
+  while (i <= number) {
+    print(i);
+    i++;
+  }
+
+
+  
 }

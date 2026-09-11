@@ -1,11 +1,12 @@
 void main () {
 
-    List data = ["Apple","Orenge","Watermelon"];
+     
+   int number = 1;
 
-    for (String name in data ){
-        print ("Names of Fruits : $name");
+  while (number <= 10) {
+    print("10 x $number = ${10* number}");
+    number++;
     }
-
 
 
 }

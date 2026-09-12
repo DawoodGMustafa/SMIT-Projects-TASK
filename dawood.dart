@@ -1,11 +1,12 @@
 void main (){
 
-int data =1;
+int data = 1;
 
-while (data <= 10){
-  print (data);
-  data++;
+do{
+  print (data );
+  data=data +2;
 }
+while (data <= 15);
 
 
 

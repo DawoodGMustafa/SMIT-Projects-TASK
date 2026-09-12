@@ -1,10 +1,15 @@
-void main (){
+import 'dart:io';
 
-List cities =["Karachi","Islamabad","lahore","Quetta"];
+void main() {
+  print("enter a number1:");
 
-for (String data  in cities)
-print("Names of Cities:$data");
+  int number2 = int.parse(stdin.readLineSync()!);
 
 
-
-}
+  for (int i = 10; i >= 1; i--) {
+    print("$number2 x $i = ${number2 * i}");
+  }
+  
+  
+  
+  }

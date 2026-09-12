@@ -1,15 +1,18 @@
 import 'dart:io';
 
 void main() {
-  print("enter a number1:");
+  int number = 1;
 
-  int number2 = int.parse(stdin.readLineSync()!);
+  while (number != 0) {
+ print("enter a value:");
 
-
-  for (int i = 10; i >= 1; i--) {
-    print("$number2 x $i = ${number2 * i}");
+ number = int.parse(stdin.readLineSync()!);
   }
-  
-  
-  
-  }
+   
+   print("write 0. end .");
+
+
+
+
+}
+

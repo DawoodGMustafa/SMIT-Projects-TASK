@@ -1,20 +1,10 @@
 void main (){
 
-int data = 1;
+List cities =["Karachi","Islamabad","lahore","Quetta"];
 
-do{
-  print (data );
-  data=data +2;
-}
-while (data <= 15);
-
+for (String data  in cities)
+print("Names of Cities:$data");
 
 
 
 }
-
-
-
-
-
-

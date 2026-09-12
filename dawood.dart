@@ -1,18 +1,13 @@
-import 'dart:io';
-
 void main() {
-  int number = 1;
 
-  while (number != 0) {
- print("enter a value:");
 
- number = int.parse(stdin.readLineSync()!);
+  List prices1 = [100, 500, 1000, 13000, 43560];
+
+  for (int prices2 in prices1) {
+    print("Rs. $prices2");
   }
-   
-   print("write 0. end .");
 
 
 
 
 }
-
